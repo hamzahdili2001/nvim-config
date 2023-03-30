@@ -16,7 +16,8 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
 --  use 'Luxed/ayu-vim'
-	use 'Mofiqul/dracula.nvim'
+--	use 'Mofiqul/dracula.nvim'
+	use 'shaunsingh/nord.nvim'
 	use 'nvim-tree/nvim-tree.lua'
 	use 'nvim-tree/nvim-web-devicons'
 	use 'nvim-lualine/lualine.nvim'

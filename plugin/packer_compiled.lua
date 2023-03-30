@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "/home/h/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["dracula.nvim"] = {
-    loaded = true,
-    path = "/home/h/.local/share/nvim/site/pack/packer/start/dracula.nvim",
-    url = "https://github.com/Mofiqul/dracula.nvim"
-  },
   ["lspsaga.nvim"] = {
     loaded = true,
     path = "/home/h/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
@@ -108,6 +103,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/h/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["nord-vim"] = {
+    loaded = true,
+    path = "/home/h/.local/share/nvim/site/pack/packer/start/nord-vim",
+    url = "https://github.com/arcticicestudio/nord-vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
