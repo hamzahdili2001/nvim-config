@@ -5,4 +5,4 @@ require('hamzed.plugConfig.telescope')
 require('hamzed.plugConfig.lspconfig')
 require('hamzed.plugConfig.treesitter')
 require('hamzed.plugConfig.cmp')
-
+require('hamzed.plugConfig.lspsaga')
