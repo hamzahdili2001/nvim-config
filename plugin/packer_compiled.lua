@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/h/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  harpoon = {
+    loaded = true,
+    path = "/home/h/.local/share/nvim/site/pack/packer/start/harpoon",
+    url = "https://github.com/ThePrimeagen/harpoon"
+  },
   ["lspsaga.nvim"] = {
     loaded = true,
     path = "/home/h/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
@@ -94,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/h/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["lush.nvim"] = {
+    loaded = true,
+    path = "/home/h/.local/share/nvim/site/pack/packer/start/lush.nvim",
+    url = "https://github.com/rktjmp/lush.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/h/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -103,11 +113,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/h/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["nord-vim"] = {
-    loaded = true,
-    path = "/home/h/.local/share/nvim/site/pack/packer/start/nord-vim",
-    url = "https://github.com/arcticicestudio/nord-vim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -133,6 +138,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/h/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  ["onenord.nvim"] = {
+    loaded = true,
+    path = "/home/h/.local/share/nvim/site/pack/packer/start/onenord.nvim",
+    url = "https://github.com/rmehri01/onenord.nvim"
   },
   ["packer.nvim"] = {
     loaded = true,

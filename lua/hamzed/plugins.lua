@@ -17,7 +17,9 @@ return require('packer').startup(function(use)
   -- My plugins here
 --  use 'Luxed/ayu-vim'
 --	use 'Mofiqul/dracula.nvim'
-	use 'shaunsingh/nord.nvim'
+--	use 'shaunsingh/nord.nvim'
+	use 'rmehri01/onenord.nvim'
+	use 'rktjmp/lush.nvim'
 	use 'nvim-tree/nvim-tree.lua'
 	use 'nvim-tree/nvim-web-devicons'
 	use 'nvim-lualine/lualine.nvim'
@@ -37,6 +39,12 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/nvim-cmp'
   use 'hrsh7th/cmp-nvim-lsp'
 	use 'L3MON4D3/LuaSnip'
+
+	-- harpoon ny ThePrimeagen
+--[[use {
+		'nvim-lua/plenary.nvim',
+		'ThePrimeagen/harpoon'
+	}]]
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
